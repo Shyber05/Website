@@ -1,3 +1,10 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+
+/*
+if we had an rss feed add this under the <small> tag
+<a href="/feed.xml">RSS</a>
+*/
+
 const YEAR = new Date().getFullYear()
 
 export default {
@@ -5,7 +12,6 @@ export default {
     <footer>
       <small>
         <time>{YEAR}</time> © Brandon Scheiber.
-        <a href="/feed.xml">RSS</a>
       </small>
       <style jsx>{`
         footer {
