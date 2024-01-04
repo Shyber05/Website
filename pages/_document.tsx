@@ -1,10 +1,12 @@
 import { Html, Head, Main, NextScript } from 'next/document'
+//NOTE
+//side note on the facivon, needs to be in the public folder and called "icon" to render
 
 export default function Document() {
   const meta = {
     title: 'Personal Website',
-    description: 'Just a bunch of meta',
-    image: 'images/logo.png',
+    description: 'Personal portfolio/blog website',
+    image: '/favicon.png',
   }
   return (
     <Html lang="en">
@@ -20,6 +22,7 @@ export default function Document() {
         <meta name="twitter:title" content={meta.title} />
         <meta name="twitter:description" content={meta.description} />
         <meta name="twitter:image" content={meta.image} />
+        <link rel="icon" href="/icon.ico" />                  
       </Head>
       <body>
         <Main />

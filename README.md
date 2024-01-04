@@ -19,14 +19,14 @@ So I get to edit my site in markdown and makes the process pretty simple.
 #### Documentation Theme
 
 As a side note Nextra has another theme template for documentation   
-The reason I wanted to add this here is if I ever need to be the sole maintainer for a project and need to spin up documentation very quickly I want to keep this option in mind.  
+The reason I wanted to add this here is if I ever needed to write some documentation I want to try out this template as it seems easy to maintain and has a nice aesthetic.
   
 
 The full documentation theme can be found [here](https://nextra.site/docs/docs-theme/start)
 
 Quick shoutout to the youtube channel [Colby Fayock](https://www.youtube.com/@colbyfayock) for the video 
 _[Documentation Website in Next.js with Nextra](https://www.youtube.com/watch?v=mVDMvYQL7-A)_   
-High quality video that shows the simplicity of using the documentation theme.
+Nice video that shows off the simplicity of using the documentation theme and how to set it up.
 
 
 
