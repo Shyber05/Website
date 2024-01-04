@@ -1,4 +1,4 @@
-
+// <a href="/feed.xml">RSS</a>
 
 const YEAR = new Date().getFullYear()
 
@@ -7,7 +7,6 @@ export default {
     <footer>
       <small>
         <time>{YEAR}</time> © Brandon Scheiber.
-    <a href="/feed.xml">RSS</a>
       </small>
       <style jsx>{`
         footer {
