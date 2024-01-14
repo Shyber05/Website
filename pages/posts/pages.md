@@ -8,9 +8,9 @@ author: Brandon Scheiber
 
 #### <ins>A Case for why Nostr is important</ins>
  
-I always enjoyed the concept of free and open source software. There was a time I worked at a Crypto mine, mining Ether and bitcoin so I've had a fascination with the concept of ["Freedom technology"](https://eightify.app/summary/blockchain-and-cryptocurrency/bitcoin-nostr-freedom-tech-insights-from-matt-odell) for a while now. They can be understood as tools for individuals to have a decentralized platform in which they can have ownership and control over their data.  
+I always enjoyed the concept of free and open source software. I worked at a Crypto mine, mining Ether and bitcoin developing this fascination with the concept of ["Freedom technology"](https://eightify.app/summary/blockchain-and-cryptocurrency/bitcoin-nostr-freedom-tech-insights-from-matt-odell). Freedom Technology can be understood as technology that allows individuals to have a decentralized platform in which they can have ownership and control over their data and can't be limited to the tech by a centralized authority.    
   
-That brings me to this new protocal ["Nostr"](https://nostr.com/). Nostr which stands for _"<ins>N</ins>otes and <ins>O</ins>ther <ins>S</ins>tuff <ins>T</ins>ransmitted by <ins>R</ins>elay"_ is something I have been playing with it for a couple months now and wanted to express my takes on the protocal, what it could mean for the future and things that I learned. 
+Enter the protocal ["Nostr"](https://nostr.com/). Nostr which stands for _"<ins>N</ins>otes and <ins>O</ins>ther <ins>S</ins>tuff <ins>T</ins>ransmitted by <ins>R</ins>elay"_ is something I have been playing with it for a couple months now and wanted to express my takes on the protocal, what it could mean for the future and things that I learned. 
 
 So the basics of the Nostr are best explained with a comparison to something like TCP-IP. TCP-IP which is the protocal that allows computers to transmit data over the internet was introduce in 1974 and the main thing to realize is that no sole entity controls or owns it. Because it's simply the rules that govern how computers share data over the web it is permissionless by nature which means anyone can send packets over the web as long as they follow the protocal
   
