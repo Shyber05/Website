@@ -8,7 +8,7 @@ author: Brandon Scheiber
 
 #### <ins>A Case for why Nostr is important</ins>
  
-I always enjoyed the concept of free and open source software. I worked at a Crypto mine, mining Ether and bitcoin developing this fascination with the concept of ["Freedom technology"](https://eightify.app/summary/blockchain-and-cryptocurrency/bitcoin-nostr-freedom-tech-insights-from-matt-odell). Freedom Technology can be understood as technology that allows individuals to have a decentralized platform in which they can have ownership and control over their data and can't be limited to the tech by a centralized authority.    
+I always enjoyed the concept of free and open source software. There was a time I was able to work in a Crypto mine, mining Ether and bitcoin developing this fascination with the concept of ["Freedom technology"](https://eightify.app/summary/blockchain-and-cryptocurrency/bitcoin-nostr-freedom-tech-insights-from-matt-odell). Freedom Technology can be understood as technology that allows individuals to have a decentralized platform in which they can have ownership and control over their data and can't be limited to the tech by a centralized authority.    
   
 Enter the protocal ["Nostr"](https://nostr.com/). Nostr which stands for _"<ins>N</ins>otes and <ins>O</ins>ther <ins>S</ins>tuff <ins>T</ins>ransmitted by <ins>R</ins>elay"_ is something I have been playing with it for a couple months now and wanted to express my takes on the protocal, what it could mean for the future and things that I learned. 
 
