@@ -8,7 +8,7 @@ npx create-next-app --example blog my-blog
 # or
 yarn create next-app --example blog my-blog
 # or
-pnpm create next-app --example blog my-blog
+npm create next-app --example blog my-blog
 ```
 
 The interesting thing about Nextra is it allows the use of [mdx files](https://mdxjs.com/docs/what-is-mdx/) which are files that allow you to use JSX in your markdown content.  
