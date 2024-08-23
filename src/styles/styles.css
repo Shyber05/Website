@@ -1,0 +1,276 @@
+
+:root {
+    --background-color: #151515; /* Dark background */
+    --font-color: #e0e0e0; /* Light font color */
+    --secondary-color: #727578;
+    --code-bg-color: #2d2d2d; /* Dark background for code blocks */
+    --block-background-color: #1c1c1c; /* Darker background for blocks */
+}
+
+
+body {
+  background-color: var(--background-color);
+  color: var(--font-color);
+}
+
+
+
+.terminal-nav {
+    background-color: var(--primary-color);
+    padding: 10px 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.terminal-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.terminal-menu li {
+    margin-right: 20px;
+}
+
+.terminal-menu li:last-child {
+    margin-right: 0;
+}
+
+.terminal-menu a {
+    color: var(--invert-font-color);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.terminal-menu a:hover {
+    background-color: var(--invert-font-color);
+    color: var(--primary-color);
+}
+
+/* Ensure the social icons stay to the right */
+.terminal-social {
+    margin-left: auto;
+    display: flex;
+}
+
+.terminal-social li {
+    margin-right: auto;
+}
+
+.terminal-social li a {
+    padding: 5px 10px;
+}
+
+.terminal-social li a:hover {
+    background-color: var(--invert-font-color);
+    color: var(--primary-color);
+}
+
+.content-container {
+  max-width: 800px; /* Limit the maximum width for readability */
+    margin: 0 auto;   /* Center the container horizontally */
+    padding: 20px;    /* Add some padding around the content */
+
+}
+
+
+.centered-content {
+    background-color: var(--background-color); /* Light background for the article */
+    padding: 20px; /* Add some padding inside the article */
+    border: 1px solid var(--code-bg-color); /* Border around the article */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.centered-content h2 {
+    text-align: center; /* Center the title */
+    margin-bottom: 20px; /* Add space below the title */
+}
+
+.centered-content p {
+    margin-bottom: 15px; /* Space between paragraphs */
+    line-height: 1.6;    /* Improve readability with line height */
+}
+
+.floating-github-icon {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+    background-color: #333;
+    color: white;
+    border-radius: 50%;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease;
+}
+
+.floating-github-icon:hover {
+    background-color: #444;
+}
+
+.floating-github-icon a {
+    color: white;
+    text-decoration: none;
+}
+
+.floating-github-icon i {
+    font-size: 24px;
+}
+
+
+
+
+@media (max-width: 600px) {
+    .container {
+        padding: 10px; /* Reduce padding on smaller screens */
+    }
+}
+
+.site-footer {
+    display: flex;
+    justify-content: center;  /* Horizontally center the content */
+    align-items: center;      /* Vertically center the content */
+    padding: 20px 0;
+    background-color: var(--background-color);
+    color: var(--invert-font-color);
+}
+
+.site-footer p {
+    margin: 0;
+}
+.form-group {
+  margin-bottom: var(--global-line-height);
+}
+
+fieldset {
+  border: 1px solid var(--background-color);
+  padding: 1em;
+}
+
+textarea {
+  height: auto;
+  width: 100%;
+  resize: none;
+  border: 1px var(--input-style)var(--background-color);
+  padding: .5em;
+  font-size: 1em;
+  font-family: var(--font-stack);
+  appearance: none;
+  border-radius: 0;
+}
+
+
+input[type="email"], input[type="text"], input[type="number"], input[type="password"], input[type="search"], input[type="date"], input[type="time"] {
+  border: 1px var(--input-style)var(--background-color);
+  width: 100%;
+  padding: .7em .5em;
+  font-size: 1em;
+  font-family: var(--font-stack);
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 0;
+  overflow: visible;
+}
+
+input, textarea {
+  color: var(--font-color);
+  background-color: var(--background-color);
+}
+
+.btn {
+  border-width: 1px;
+  display: inline-flex;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  cursor: pointer;
+  outline: none;
+  outline-color: var(--background-color);
+  padding: .5em 2em;
+  font-size: 1em;
+  font-family: inherit;
+  color: var(--font-color);
+  user-select: none;
+  position: relative;
+  background-color: var(--background-color);
+  z-index: 1;
+}
+
+
+button, input, optgroup, select, textarea {
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
+
+
+.glow-on-hover {
+    width: 100px;
+    height: 35px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #111;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+}
+
+.glow-on-hover:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.glow-on-hover:active {
+    color: #000
+}
+
+.glow-on-hover:active:after {
+    background: transparent;
+}
+
+.glow-on-hover:hover:before {
+    opacity: 1;
+}
+
+.glow-on-hover:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #111;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}

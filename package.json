@@ -1,29 +1,6 @@
 {
-  "private": true,
-  "scripts": {
-    "dev": "next",
-    "predeploy": "npm run build",
-    "deploy": "react-scripts build",
-    "build": "node ./scripts/gen-rss.js && next build",
-    "start": "next start"
-  },
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^6.5.1",
-    "@fortawesome/free-solid-svg-icons": "^6.5.1",
-    "@fortawesome/react-fontawesome": "^0.2.0",
-    "gray-matter": "^4.0.3",
-    "next": "latest",
-    "nextra": "^2.0.0-beta.5",
-    "nextra-theme-blog": "^2.0.0-beta.5",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-social-icons": "^6.7.0",
-    "rss": "^1.2.2"
-  },
-  "devDependencies": {
-    "@types/node": "^18.0.0",
-    "@types/react": "^18.0.14",
-    "@types/react-dom": "^18.0.5",
-    "typescript": "^4.7.4"
+    "htmx.org": "^2.0.1",
+    "terminal.css": "^0.7.5"
   }
 }
